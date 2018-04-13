@@ -1,0 +1,78 @@
+/* for devlopment use */
+/* * {
+  border: 0.5px solid #93a3bc;
+} */
+/****************************/
+.main-container {
+  background-color: rgb(246, 246, 239);
+}
+.hn-navbar {
+  color: #000000;
+  background-color: #ff6600;
+  margin-bottom: 5px;
+}
+.icon {
+  font-size: 12px;
+}
+.navbar-links {
+  color: #000000;
+  font-size: 12px;
+}
+.navbar-links:visited {
+  color: inherit;
+}
+.navbar-links:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.story {
+  background-color: rgb(246, 246, 239);
+}
+.rank {
+  color: #828282;
+  margin: 0 2px;
+  width: 45px;
+  font-size: 14px;
+  text-align: right;
+}
+.title {
+  font-size: 13px;
+  color: #000000;
+}
+.title:visited {
+  color: #828282;
+}
+.title:visited:hover {
+  text-decoration: none;
+  color: #828282;
+}
+.title:hover {
+  text-decoration: none;
+  color: #000000;
+}
+.short-url {
+  font-size: 10px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #828282;
+}
+.small-text {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 9px;
+  color: #828282;
+}
+.story-link:hover {
+  color: inherit;
+}
+@media only screen and (min-width: 751px) {
+  /* for desktop and tablet */
+  .main-container {
+    width: 85%;
+    margin: 8px auto;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /* for mobile */
+  .main-container {
+    width: 100%;
+  }
+}
