@@ -2,6 +2,7 @@
   "name": "hacker-news-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alex-Joseph.github.io/Hacker-news-clone",
   "dependencies": {
     "moment": "^2.22.0",
     "react": "^16.3.1",
@@ -12,9 +13,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "cypress": "^2.1.0"
+    "cypress": "^3.1.0",
+    "gh-pages": "^1.2.0"
   }
 }
